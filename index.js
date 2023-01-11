@@ -9,7 +9,7 @@ function increment() {
 
 function save() {
     let display = count + " - "
-    saveEl.textContent += countStr
+    saveEl.textContent += display
     countEl.textContent = 0
     count = 0
 }
